@@ -299,7 +299,7 @@ if __name__ == "__main__":
     'assists': 10,           # Elite for a fullback
     'minutes_played': 3500,
     'yellow_cards': 8,       # Tactical fouls (Pep special)
-    'red_cards': 1,          # That one stupid red
+    'red_cards': 1,          
     'goals_per_90': 0.08,
     'assists_per_90': 0.26,  # Better than many midfielders
     'age': 27,               # Peak age for fullback
@@ -309,9 +309,9 @@ if __name__ == "__main__":
     'avg_club_average_age': 26.5,
     
     # ADVANCED METRICS (where Cancelo is unique)
-    'distance': 8000,       # Covers a lot of ground as a fullback
-    'carries_per_90': 6.5,   # Inverts into midfield constantly
-    'tackles_interceptions_per_90': 2.8,  # Decent but not elite
+    'distance': 8000,      
+    'carries_per_90': 6.5,   
+    'tackles_interceptions_per_90': 2.8, 
     'clearances_per_90': 1.5,
     'blocks_per_90': 0.3,
     'recoveries_per_90': 5.5,
@@ -342,25 +342,25 @@ if __name__ == "__main__":
 
     
     test_neuer_2014 = {
-    # Basic Stats (Goalkeeper context)
+    
     'goals': 0,
     'assists': 0,
-    'minutes_played': 4665,  # World Cup + Bayern season [citation:6][citation:7]
+    'minutes_played': 4665,  
     'yellow_cards': 0,
     'red_cards': 0,
     'goals_per_90': 0.0,
     'assists_per_90': 0.0,
-    'age': 28,  # Born March 27, 1986 [citation:3]
+    'age': 28,  
     'position': 'Goalkeeper',
-    'league_id': 'DE1',  # Bundesliga
-    'avg_club_internationals': 26,  # Peak Bayern (Müller, Lahm, Schweinsteiger, Kroos, etc.)
+    'league_id': 'DE1',  
+    'avg_club_internationals': 26,  
     'avg_club_average_age': 27,
     
-    # Goalkeeper-Specific Advanced Metrics
-    'distance': 5200,  # Sweeper-keeper - covered ground outside box [citation:10]
-    'carries_per_90': 1.2,  # Rare for GK but Neuer unique
-    'tackles_interceptions_per_90': 0.5,  # Sweeper clearances outside box [citation:10]
-    'clearances_per_90': 2.5,  # Sweeper actions
+    
+    'distance': 5200,  
+    'carries_per_90': 1.2,
+    'tackles_interceptions_per_90': 0.5,  
+    'clearances_per_90': 2.5,  
     'blocks_per_90': 0.3,
     'recoveries_per_90': 7.5,
 }
